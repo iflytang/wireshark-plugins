@@ -13,6 +13,7 @@ dofile("~/workspace/wireshark/plugins/pof.lua")  # add at the last line
 ```
 
 - third
+
 However, if you run ```sudo wireshark```, there is still an error. Because ```sudo``` will not init ```*.lua``` file. Please enter command under the ```root``` right:
 
 ```
